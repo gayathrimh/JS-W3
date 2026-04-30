@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript in body</h1>
+    <p id="demo">Paragraph</p>
+    <button id="button1" onclick="myFunction()">Click</button>
+
+    <script>
+        let btn1=document.getElementById("button1");
+        function myFunction(){
+            document.getElementById("demo").innerHTML="Paragraph chnaged";
+        }
+    </script>
+</body>
+</html>

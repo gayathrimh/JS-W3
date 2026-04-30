@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript can hide element</h1>
+    <p id="demo">Hiding can be done by displaying as none</p>
+    <button id="button1">Click</button>
+
+    <script>
+        let btn1=document.getElementById("button1");
+        btn1.onclick=function (){
+            document.getElementById("demo").style.display='none';
+        }
+    </script>
+</body>
+</html>

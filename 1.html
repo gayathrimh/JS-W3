@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>+
+</head>
+<body>
+    <h1>First javascript code</h1>
+    <button id="button1">Click here to display date and time</button>
+    <p id="demo"></p>
+
+    <script>
+        let btn1=document.getElementById("button1");
+        btn1.onclick=function(){
+            let date=new Date();
+        document.getElementById("demo").innerHTML=date;
+        }
+        
+    </script>
+</body>
+</html>

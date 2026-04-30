@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>What can javascript do</h1>
+    <p>Javascript can hide elements</p>
+    <p id="demo" style="display:none">Hello Javascript</p>
+    <button id="button1">click</button>
+
+    <script>
+        let btn1=document.getElementById("button1");
+        btn1.onclick=function(){
+            document.getElementById("demo").style.display='block';
+        }
+    </script>
+</body>
+</html>
